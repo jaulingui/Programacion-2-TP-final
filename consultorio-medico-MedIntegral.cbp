@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="consultorio-medico-MedIntegral" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/consultorio-medico-MedIntegral" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/consultorio-medico-MedIntegral" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="header" />
+		</Compiler>
+		<Unit filename="header/Configuracion.h" />
+		<Unit filename="header/ConfiguracionArchivo.h" />
+		<Unit filename="header/Especialidad.h" />
+		<Unit filename="header/EspecialidadArchivo.h" />
+		<Unit filename="header/EspecialidadManager.h" />
+		<Unit filename="header/FechaHora.h" />
+		<Unit filename="header/Medico.h" />
+		<Unit filename="header/MedicoArchivo.h" />
+		<Unit filename="header/MedicoManager.h" />
+		<Unit filename="header/Menu.h" />
+		<Unit filename="header/ObraSocial.h" />
+		<Unit filename="header/ObraSocialArchivo.h" />
+		<Unit filename="header/ObraSocialManager.h" />
+		<Unit filename="header/Paciente.h" />
+		<Unit filename="header/PacienteArchivo.h" />
+		<Unit filename="header/PacienteManager.h" />
+		<Unit filename="header/Persona.h" />
+		<Unit filename="header/Reporte.h" />
+		<Unit filename="header/Turno.h" />
+		<Unit filename="header/TurnoArchivo.h" />
+		<Unit filename="header/TurnoManager.h" />
+		<Unit filename="source/Configuracion.cpp" />
+		<Unit filename="source/ConfiguracionArchivo.cpp" />
+		<Unit filename="source/Especialidad.cpp" />
+		<Unit filename="source/EspecialidadArchivo.cpp" />
+		<Unit filename="source/EspecialidadManager.cpp" />
+		<Unit filename="source/FechaHora.cpp" />
+		<Unit filename="source/Medico.cpp" />
+		<Unit filename="source/MedicoArchivo.cpp" />
+		<Unit filename="source/MedicoManager.cpp" />
+		<Unit filename="source/Menu.cpp" />
+		<Unit filename="source/ObraSocial.cpp" />
+		<Unit filename="source/ObraSocialArchivo.cpp" />
+		<Unit filename="source/ObraSocialManager.cpp" />
+		<Unit filename="source/Paciente.cpp" />
+		<Unit filename="source/PacienteArchivo.cpp" />
+		<Unit filename="source/PacienteManager.cpp" />
+		<Unit filename="source/Persona.cpp" />
+		<Unit filename="source/Reportes.cpp" />
+		<Unit filename="source/Turno.cpp" />
+		<Unit filename="source/TurnoArchivo.cpp" />
+		<Unit filename="source/TurnoManager.cpp" />
+		<Unit filename="source/main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
